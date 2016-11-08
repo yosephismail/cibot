@@ -870,7 +870,7 @@ class Cibot_Core extends CI_Controller
     
     public function getDataIniConfigFile($groupid="")
     {
-        return $this->readIniConfigFile("/config/Cibot_config.ini",$groupid);
+        return $this->readIniConfigFile("https://raw.githubusercontent.com/yosephismail/cibot/master/config/Cibot_config.ini",$groupid);
     }
     
     public function sendMail($mailto,$subject,$message="")
