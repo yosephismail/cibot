@@ -1,6 +1,6 @@
 <?php
 
-require_once('https://raw.githubusercontent.com/yosephismail/cibot/helper/cibottext_helper.php');
+require_once('https://raw.githubusercontent.com/yosephismail/cibot/master/helper/cibottext_helper.php');
 
 class Cibot_Core extends CI_Controller
 {
