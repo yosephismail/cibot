@@ -1,6 +1,6 @@
 <?php
 
-require_once('cibot/helper/cibottext_helper.php ');
+require_once('/cibot/helper/cibottext_helper.php ');
 
 class Cibot_Core extends CI_Controller
 {
